@@ -1,11 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import { Switch,Redirect } from "react-router-dom"
 function App() {
   return (
     <div className="App">
-      
+        Home sweet Home!!!!
     </div>
   );
 }
