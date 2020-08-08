@@ -9,13 +9,13 @@ const App = () =>{
   return (
         <>
           <Switch> 
-              <Route exact Path="/" component={Home}/>
-              <Route exact Path="/About" component={About}/>
-              <Route exact Path="/Services" component={Services}/>
-              <Route exact Path="/Contact" component={Contact}/>
+              <Route exact Path="/" component={ Home } />
+              <Route exact Path="/about" component={ About } />
+              <Route exact Path="/services" component={ Services } />
+              <Route exact Path="/contact" component={ Contact } />
               <Redirect to="/" />
           </Switch>
-          </>
+        </>
   );
 }
 
